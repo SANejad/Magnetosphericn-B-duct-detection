@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (do NOT upload large data)
+data/raw/
+data/processed/
+
+# OS
+.DS_Store
