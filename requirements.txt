@@ -1,3 +1,7 @@
 numpy
 pandas
 matplotlib
+xarray
+pyspedas
+joblib
+scikit-learn
