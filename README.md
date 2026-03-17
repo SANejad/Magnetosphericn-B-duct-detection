@@ -1,4 +1,4 @@
-# magnetospheric $B$-duct detection
+# magnetospheric B-duct detection
 
 AI-enabled detection and characterization of magnetospheric ducting structures from space physics observations.
 
