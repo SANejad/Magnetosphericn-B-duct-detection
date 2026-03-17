@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "duct-detection"
+version = "0.1.0"
+description = "Prototype pipeline for magnetospheric B-duct detection from MMS observations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "xarray",
+  "pyspedas",
+  "joblib",
+  "scikit-learn",
+]
+
+[project.optional-dependencies]
+ml = [
+  "torch",
+  "tensorflow",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -22,8 +22,14 @@ from .plotting import (
     plot_bt_epsd,
 )
 
+from .ml_preparation import (
+    build_cnn_tensor_stack,
+    build_rf_training_arrays,
+    load_label_map,
+    save_ml_bundle,
+)
+
 __all__ = [
-    # data_ingest
     "MMSInterval",
     "build_interval_dataframe",
     "build_interval_dataset",
@@ -33,14 +39,14 @@ __all__ = [
     "load_mms_core_data",
     "save_interval_csv",
     "save_interval_netcdf",
-
-    # event_dataset
     "EventConfig",
     "build_event_dataset",
     "export_event_datasets_from_csv",
     "save_event_dataset",
-
-    # plotting
     "batch_plot_event_quicklooks",
     "plot_bt_epsd",
+    "build_cnn_tensor_stack",
+    "build_rf_training_arrays",
+    "load_label_map",
+    "save_ml_bundle",
 ]

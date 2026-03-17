@@ -1,18 +1,34 @@
-# magnetospheric B-duct detection
+# Magnetospheric B-Duct Detection
 
-AI-enabled detection and characterization of magnetospheric ducting structures from space physics observations.
+Prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from MMS observations.
 
-## Current status
-This repository contains the prototype pipeline for:
-- MMS data ingestion and interpolation
-- preprocessing of duct-relevant intervals
-- downstream machine-learning workflows for detection and characterization
+## Repository status
+- **Current maturity:** structured research prototype suitable for a TRL 4–5 starting point
+- **Legacy development notebooks:** preserved under `archive/legacy_notebooks/`
+- **Public-facing workflow notebooks:** kept in `notebooks/` and aligned to the packaged code in `src/`
 
-## Repository structure
-- `notebooks/` exploratory and workflow notebooks
-- `src/` Python modules
-- `data/` raw and processed data products
-- `results/` figures and model outputs
+## Pipeline stages
+1. **Data ingestion** – download MMS products, interpolate to a common timeline, and export interval products.
+2. **Event dataset construction** – build event-centered NetCDF samples and quicklook plots.
+3. **Feature preparation** – convert event samples into ML-ready tabular features and spectrogram tensors.
+4. **Model development** – train baseline and advanced models from prepared arrays.
 
-## First implemented component
-The current prototype includes an MMS data-ingestion notebook for downloading, interpolating, and exporting satellite observations for selected intervals.
+## Quick start
+```bash
+pip install -e .
+```
+
+## Main workflow notebooks
+- `notebooks/01_mms_data_ingest_interpolation.ipynb`
+- `notebooks/02_event_dataset_and_quicklooks.ipynb`
+- `notebooks/03_feature_preparation.ipynb`
+- `notebooks/04_model_random_forest.ipynb`
+
+## Labels
+Model training requires a label table. A template is provided at `labels/example_event_labels.csv` with columns:
+- `file`
+- `label`
+
+## Notes
+- Large data products are intentionally excluded from version control.
+- Historical notebooks are retained for development traceability but should not be treated as the current workflow.
