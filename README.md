@@ -4,7 +4,7 @@ This project is a prototype pipeline for AI-enabled detection and characterizati
 
 ## Example duct signatures
 
-**Series of Detected Events in the (A) Flank, and (A') Magnetotail of Magnetosphere**
+**Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere**
 <p align="center">
   <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="95%">
 </p>
