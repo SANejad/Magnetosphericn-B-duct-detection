@@ -1,6 +1,8 @@
 # Magnetospheric B-Duct Detection
 
-This project is a prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from MMS observations.
+This project is a prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from satellite observations.
+
+[← Back to main profile](README.md)
 
 ## Example Ducting Signatures
 
