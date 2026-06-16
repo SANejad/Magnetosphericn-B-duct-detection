@@ -1,12 +1,40 @@
 # Magnetospheric B-Duct Detection
 
-Prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from MMS observations.
+This project is a prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from MMS observations.
 
+# Magnetospheric Duct Detection
+
+Observations show localized magnetospheric ducting events associated with structured magnetic-field and plasma-density variations. This project is a prototype AI pipeline for detecting these duct events individually from observations.
+
+**GitHub Repository:** https://github.com/SANejad/Magnetosphericn-B-duct-detection
+
+## Example duct signatures
+
+**Series of Detected Events in the (A) Flank, and (A') Magnetotail of Magnetosphere**
 <p align="center">
-  <img src="assets/figures/Fig1-2.png" alt="Detected magnetospheric duct events" width="95%">
+  <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="95%">
 </p>
 
 <p align="center"><sub>Detected duct candidates used as examples for the AI detection workflow.</sub></p>
+
+**Observed (A) High-magnetic, (A') Low-Magnetic, and (A'') Magnetic-Shelf Events**
+
+<p align="center">
+  <img src="assets/B_ducts.png" alt="Examples of magnetic-field duct signatures in MMS observations" width="95%">
+</p>
+
+
+
+## Workflow
+
+- Identify observation intervals that contain possible magnetospheric duct signatures.
+- Extract event-centered magnetic-field and plasma-density structures.
+- Use the extracted samples to train and test AI models for individual duct detection.
+- Compare detected events with observed duct signatures across different regions of the magnetosphere.
+
+## Status
+
+Research prototype under development. The project currently focuses on organizing duct-event samples, preparing detected-event examples, and building an AI workflow for identifying individual magnetospheric ducting structures from observational data.
 
 ## Repository status
 - **Current maturity:** structured research prototype suitable for a TRL 4–5 starting point
