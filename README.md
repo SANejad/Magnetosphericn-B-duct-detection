@@ -2,9 +2,10 @@
 
 This project is a prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from MMS observations.
 
-## Example duct signatures
+## Example Ducting Signatures
 
-**Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere (Magnetospheric Multiscale (MMS) mission Data)**
+A Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere (Magnetospheric Multiscale (MMS) mission Data)
+
 <p align="center">
   <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="95%">
 </p>
