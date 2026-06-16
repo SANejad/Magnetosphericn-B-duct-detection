@@ -10,6 +10,7 @@ A Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere 
   <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="95%">
 </p>
 
+--- 
 **Observed (A) High-magnetic, (A') Low-Magnetic, and (A'') Magnetic-Shelf Events**
 
 <p align="center">
