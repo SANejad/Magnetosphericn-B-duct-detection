@@ -2,7 +2,11 @@
 
 Prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from MMS observations.
 
-<img src="assets/figures/Fig1-2.png" width="95%">
+<p align="center">
+  <img src="assets/figures/Fig1-2.png" alt="Detected magnetospheric duct events" width="95%">
+</p>
+
+<p align="center"><sub>Detected duct candidates used as examples for the AI detection workflow.</sub></p>
 
 ## Repository status
 - **Current maturity:** structured research prototype suitable for a TRL 4–5 starting point
