@@ -7,17 +7,15 @@ This project is a prototype pipeline for AI-enabled detection and characterizati
 A Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere (Magnetospheric Multiscale (MMS) mission Data)
 
 <p align="center">
-  <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="95%">
+  <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="60%">
 </p>
 
 --- 
 **Observed (A) High-magnetic, (A') Low-Magnetic, and (A'') Magnetic-Shelf Events**
 
 <p align="center">
-  <img src="assets/B_ducts.png" alt="Examples of magnetic-field duct signatures in MMS observations" width="95%">
+  <img src="assets/B_ducts.png" alt="Examples of magnetic-field duct signatures in MMS observations" width="80%">
 </p>
-
-<p align="center"><sub>Detected duct candidates .</sub></p>
 
 
 ## Workflow
@@ -32,7 +30,7 @@ A Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere 
 Research prototype under development. The project currently focuses on organizing duct-event samples, preparing detected-event examples, and building an AI workflow for identifying individual magnetospheric ducting structures from observational data.
 
 ## Repository status
-- **Current maturity:** structured research prototype suitable for a TRL 4–5 starting point
+- **Current maturity:** structured research prototype suitable for a TRL 5–6 starting point
 - **Legacy development notebooks:** preserved under `archive/legacy_notebooks/`
 - **Public-facing workflow notebooks:** kept in `notebooks/` and aligned to the packaged code in `src/`
 
