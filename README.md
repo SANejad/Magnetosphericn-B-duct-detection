@@ -9,12 +9,8 @@ This project is a prototype pipeline for AI-enabled detection and characterizati
   <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="95%">
 </p>
 
-<p align="center"><sub>Detected duct candidates used as examples for the AI detection workflow.</sub></p>
+<p align="center"><sub>Detected duct candidates (Magnetospheric Multiscale (MMS) mission).</sub></p>
 
-
-<p align="center">
-  <img src="assets/Fig1-2.png" alt="ELF wave packets localized in the $B-$ducts observed by MMS-1 satellite in phase-1 on March 06, 2016, from 23:25:44 to 23:27:59 UT, and in phase-2 from 1:44:20 to 1:47:40 UT on July 21, 2017. Panels (A) and (A') show the power spectral density (PSD) of $E_x$ component of the electric field in the GSE coordinate system of the satellite (shown with a color pallet) and background magnetic field (shown with the white line). Panels (B) and (B') show the electron density measured by the MMS1 satellite. Panel (C) and (C') show the trajectory and the location of MMS satellites in the GSE X-Y plane on March 6, 2016 (19:00 UT), and July 21, 2017 (2:00 UT), respectively." width="95%">
-</p>
 
 **Observed (A) High-magnetic, (A') Low-Magnetic, and (A'') Magnetic-Shelf Events**
 
