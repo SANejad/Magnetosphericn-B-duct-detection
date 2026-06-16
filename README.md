@@ -4,13 +4,10 @@ This project is a prototype pipeline for AI-enabled detection and characterizati
 
 ## Example duct signatures
 
-**Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere**
+**Series of Detected Events in (A) Flank, and (A') Magnetotail of Magnetosphere (Magnetospheric Multiscale (MMS) mission Data)**
 <p align="center">
   <img src="assets/Fig1-2.png" alt="Detected duct events frSom MMS observations" width="95%">
 </p>
-
-<p align="center"><sub>Detected duct candidates (Magnetospheric Multiscale (MMS) mission).</sub></p>
-
 
 **Observed (A) High-magnetic, (A') Low-Magnetic, and (A'') Magnetic-Shelf Events**
 
@@ -18,6 +15,7 @@ This project is a prototype pipeline for AI-enabled detection and characterizati
   <img src="assets/B_ducts.png" alt="Examples of magnetic-field duct signatures in MMS observations" width="95%">
 </p>
 
+<p align="center"><sub>Detected duct candidates .</sub></p>
 
 
 ## Workflow
