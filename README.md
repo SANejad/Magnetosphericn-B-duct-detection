@@ -2,12 +2,6 @@
 
 This project is a prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from MMS observations.
 
-# Magnetospheric Duct Detection
-
-Observations show localized magnetospheric ducting events associated with structured magnetic-field and plasma-density variations. This project is a prototype AI pipeline for detecting these duct events individually from observations.
-
-**GitHub Repository:** https://github.com/SANejad/Magnetosphericn-B-duct-detection
-
 ## Example duct signatures
 
 **Series of Detected Events in the (A) Flank, and (A') Magnetotail of Magnetosphere**
