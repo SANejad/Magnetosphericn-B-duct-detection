@@ -2,7 +2,7 @@
 
 This project is a prototype pipeline for AI-enabled detection and characterization of magnetospheric ducting structures from satellite observations.
 
-[← Back to main profile](README.md)
+[← Back to main profile](https://github.com/SANejad)
 
 ## Example Ducting Signatures
 
