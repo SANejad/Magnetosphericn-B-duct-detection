@@ -17,7 +17,7 @@ import pandas as pd
 import xarray as xr
 
 import pyspedas
-from pytplot import get_data
+from pyspedas import get_data
 
 
 @dataclass

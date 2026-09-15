@@ -13,3 +13,40 @@ data/processed/
 
 # OS
 .DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# MMS data
+DATA_week/
+DATA_Entire_week/
+data_*/
+20_samples/
+80_samples/
+All_samples/
+samples/
+
+# ML generated data
+ml_data/
+
+# Models
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Generated figures and predictions
+plotted_events/
+plotted_events_*/
+predicted_events/
+predicted_events_*/
+
+# Temporary/local files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.egg-info/
